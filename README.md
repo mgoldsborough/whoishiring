@@ -1,6 +1,6 @@
 # Who's hiring in React
 
-This is a simple react project that displays job postings from the monthly "Who's Hiring" posts on (Hacker News)[https://news.ycombinator.com/news]
+This is a simple react project that displays job postings from the monthly "Who's Hiring" posts on [Hacker News](https://news.ycombinator.com/news)
 
 ## Quick Start
 
