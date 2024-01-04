@@ -1,0 +1,22 @@
+.comment {
+  font-weight: bold; /* leveraging the fact that titles don't come in a <p></p> */
+}
+
+.comment p {
+  font-weight: normal; /* reset the rest of the font weight back to normal */
+  margin: 5px 0;
+}
+
+.comment a {
+  color: blue; /* Standard link color */
+  text-decoration: underline; /* Underline for links */
+  cursor: pointer; /* Cursor changes to pointer on hover */
+}
+
+.comment a:hover {
+  color: darkblue; /* Darker color on hover */
+}
+
+.comment a:visited {
+  color: purple; /* Visited links are typically purple */
+}
