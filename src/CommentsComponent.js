@@ -3,6 +3,9 @@ import axios from "axios";
 
 import "./CommentsComponent.css";
 
+// case-insensitive "remote"
+const remoteRegex = new RegExp("remote", "i");
+
 const CommentsComponent = ({ postId, filterRemote, searchTerm }) => {
   const [title, setTitle] = useState("");
   const [comments, setComments] = useState([]);
@@ -13,7 +16,8 @@ const CommentsComponent = ({ postId, filterRemote, searchTerm }) => {
     // sometimes commentText comes back as undefined. Skip it.
     if (!commentText) return;
 
-    return !filterRemote || commentText.split("<p>")[0].includes("REMOTE");
+    // test the title
+    return !filterRemote || remoteRegex.test(commentText.split("<p>")[0]);
   };
 
   // filtered and searched comments

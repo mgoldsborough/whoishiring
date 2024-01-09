@@ -17,6 +17,13 @@ npm start
 npm run build
 ```
 
+## Deploy
+
+```bash
+npm run predeploy
+npm run deploy
+```
+
 ## Adding new posts
 
 The available posts are driven by a flat file, `src/postIds.json`.

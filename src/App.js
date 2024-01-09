@@ -63,7 +63,7 @@ function App() {
               onChange={(e) => setFilterRemote(e.target.checked)}
             />
             <label htmlFor="remote" className="ml-2 text-gray-700 text-lg">
-              Show only 'REMOTE' comments
+              Show only 'REMOTE' opportunities
             </label>
           </div>
           <CommentsComponent
@@ -76,7 +76,7 @@ function App() {
 
       <footer className="bg-gray-700 text-white text-center p-4">
         © 2024 Made by <a href="https://www.onlyonet.com">OOT</a> |{" "}
-        <a href="https://github.com/mgoldsborough/whoshiring">Source Code</a>
+        <a href="https://github.com/mgoldsborough/whoishiring">Source Code</a>
       </footer>
     </div>
   );
