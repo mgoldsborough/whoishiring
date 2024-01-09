@@ -1,6 +1,8 @@
-# Who's hiring in React
+# Who is hiring? in React
 
 This is a simple react project that displays job postings from the monthly "Who's Hiring" posts on [Hacker News](https://news.ycombinator.com/news)
+
+Deployed to https://whoishiring.goldsborough.io/ via gh-pages
 
 ## Quick Start
 
