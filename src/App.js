@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
-import CommentsComponent from "./CommentsComponent";
+import { useEffect, useState } from "react";
 import "./App.css";
+import CommentsComponent from "./CommentsComponent";
 
 import postIds from "./postIds.json";
 
@@ -75,7 +75,7 @@ function App() {
       </main>
 
       <footer className="bg-gray-700 text-white text-center p-4">
-        © 2024 Made by <a href="https://www.onlyonet.com">OOT</a> |{" "}
+        © 2025 Made by <a href="https://www.onlyonet.com">OOT</a> |{" "}
         <a href="https://github.com/mgoldsborough/whoishiring">Source Code</a>
       </footer>
     </div>
